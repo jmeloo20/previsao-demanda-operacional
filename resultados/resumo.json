@@ -1,0 +1,29 @@
+{
+  "dias_originais": 731,
+  "dias_modelagem": 703,
+  "dias_treino": 550,
+  "dias_calibracao": 61,
+  "dias_teste": 92,
+  "modelo": "ridge_10",
+  "metricas_teste": {
+    "mae": 960.7723542497085,
+    "rmse": 1355.599199848665,
+    "wape": 0.18600107022666057,
+    "vies": 264.4351622643301
+  },
+  "metricas_sazonal": {
+    "mae": 1457.5869565217392,
+    "rmse": 2047.1676350721639,
+    "wape": 0.2821820722279038,
+    "vies": 439.45652173913044
+  },
+  "reducao_mae_vs_sazonal": 0.34084731620924114,
+  "ic95_diferenca_mae_blocos": [
+    -867.4584059627691,
+    -248.89726529301998
+  ],
+  "raio_intervalo": 1578.6297779168708,
+  "cobertura_teste": 0.8152173913043478,
+  "largura_media_intervalo": 3157.2595558337425,
+  "semente": 42
+}

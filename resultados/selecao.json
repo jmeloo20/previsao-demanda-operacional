@@ -1,0 +1,15 @@
+{
+  "modelo": "ridge_10",
+  "criterio": "Menor MAE médio nos três backtests mensais",
+  "horizonte_dias": 1,
+  "treino_ate": "2012-07-31",
+  "calibracao": [
+    "2012-08-01",
+    "2012-09-30"
+  ],
+  "teste": [
+    "2012-10-01",
+    "2012-12-31"
+  ],
+  "uso_historico": "Demanda real até o dia anterior disponível em cada previsão diária"
+}
